@@ -3,6 +3,7 @@
 An event-driven platform, resilient and scalable, to create and monitoring deliveries in real-time with: 
 
 Golang: https://github.com/golang/go \
+NodeJS: https://github.com/nodejs \
 NestJS: https://github.com/nestjs/nest \
 TypeScript: https://github.com/microsoft/TypeScript \
 Apache Kafka: https://github.com/apache/kafka \
