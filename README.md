@@ -14,7 +14,7 @@ React: https://github.com/facebook/react
 
 # How it Works
 
-We have a React frontend where you can choose three routes, with their start and end positions. These routes are persistent in MongoDB and are provided to the frontend via a nodeJS API. Then, when the user chooses a route and starts a race, our nodeJS API will send a message to Kafka, requesting the positions (latitude, longitude) to execute the race. Our golang API will consume this message and send the positions for that particular route to Kafka. And then, our nodeJS API will get this positions and send it to the frontend via a websocket connection
+We have a React frontend where you can choose three routes, with their start and end positions. These routes are persistent in MongoDB and are provided to the frontend via a nodeJS API. Then, when the user chooses a route and starts a race, our nodeJS API will send a message to Kafka, requesting the positions (latitude, longitude) to execute the race. Our golang API will consume this message and send the positions for that particular route to Kafka. And then, our nodeJS API will get this positions and send it to the frontend via a websocket connection. You can run all the races at once, taking advantage of the asynchronous nature of golang.
 
 # Architecture
 
