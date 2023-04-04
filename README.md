@@ -26,7 +26,8 @@ We have a React frontend where you can choose three routes, with their start and
 
 ![code-delivery](https://user-images.githubusercontent.com/46850078/228926557-06674d05-601e-4e36-b7f9-7e379dac121e.png)
 
+\
 ![dashboard](https://user-images.githubusercontent.com/46850078/228926667-74229a5d-fd00-407e-ac16-bde6a0cee092.png)
-
+\
 \
 I learned a lot building this, struggled to get this car to move forward on react frontend but it was fun! I hope that it can be useful for you as it was for me! =D
