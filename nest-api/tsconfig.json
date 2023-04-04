@@ -19,5 +19,6 @@
     "node_modules",
     "dist",
     ".docker"
-  ]
+  ],
+  "typeRoots": ["node_modules/@types"]
 }
